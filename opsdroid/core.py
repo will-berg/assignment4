@@ -580,6 +580,29 @@ class OpsDroid:
         except ValueError:
             return None
 
+    def get_skill(self, name):
+        """Get a pointer to a skill method.
+
+        Get a specific skill method by name from the methods available
+
+        Args:
+            name (string): Name of the skill method we want to access.
+
+        Returns:
+            skill method (opsdroid.skill.Skill.name): A skill method.
+
+        """
+        try:
+            for skill in self.skills:
+                skill_methods = inspect.getmembers(skill, predicate=inspect.ismethod)
+                for method_name, method in skill_methods:
+                    class_name = skill.__class__.__name__
+                    config_name = ""
+                    if f"opsdroid_modules.skill.{config_name}.{class_name}.{method_name}" == name or f"{config_name}.{class_name}.{method_name}" == name or f"{class_name}.{method_name}" == name or method_name == name:
+                        return method
+        except ValueError:
+            return None
+
     def get_skill_instance(self, skill):
         """Get the parent instance of a skill.
 
