@@ -593,13 +593,41 @@ class OpsDroid:
 
         """
         try:
+            
+            best_match = ("", 3) # 0: Path, 1: ranking of the path
+            current_match = "" 
+
             for skill in self.skills:
                 skill_methods = inspect.getmembers(skill, predicate=inspect.ismethod)
+                config_name = skill # TODO This can be wrong, will have to check
+
                 for method_name, method in skill_methods:
                     class_name = skill.__class__.__name__
-                    config_name = ""
-                    if f"opsdroid_modules.skill.{config_name}.{class_name}.{method_name}" == name or f"{config_name}.{class_name}.{method_name}" == name or f"{class_name}.{method_name}" == name or method_name == name:
-                        return method
+
+                    # Make sure to return longest path when duplicate options exists
+                    current_match = f"opsdroid_modules.skill.{config_name}.{class_name}.{method_name}"# Highest correctness
+                    
+                    if  current == name:
+                        return current
+                    
+                    current_match = f"{config_name}.{class_name}.{method_name}" # 2nd Highest correctness 
+
+                    if current_match == name:
+                        best_match = (current, 1)
+                    
+                    current_match = f"{class_name}.{method_name}" # 3rd Highest correctness
+
+                    if current_match == name and best_match[1] > 2:
+                        best_match = (current, 2)
+                    
+                    current_match == method_name # 4th Highest correctness
+                    
+                    if current_match == name and best_match[1] >= 3:
+                        best_match = (current, 3)
+
+            return best_match
+
+            return None
         except ValueError:
             return None
 
