@@ -682,3 +682,24 @@ class TestCoreAsync(asynctest.TestCase):
             inst = ClassSkill(opsdroid, {})
             opsdroid.register_skill(inst.method_skill)
             assert opsdroid.get_skill_instance(opsdroid.skills[0]) is inst
+
+    # TODO finish this test, currently used for experimenting with get_skill
+    async def test_get_skill(self):
+        class ClassSkill(Skill):
+            @match_regex(r"hello")
+            async def method_skill(self, message):
+                pass
+
+        skill_path = "opsdroid/testing/mockmodules/skills/skill/skilltest"
+        example_config = {
+            "connectors": {"websocket": {}},
+            "skills": {"test": {"path": skill_path}},
+        }
+        with OpsDroid(config=example_config) as opsdroid:
+            inst = ClassSkill(opsdroid, {})
+            opsdroid.register_skill(inst.method_skill)
+
+            opsdroid.get_skill("test.ClassSkill.method_skill")
+
+if __name__ == "__main__":
+    unittest.main()

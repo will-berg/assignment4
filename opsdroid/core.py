@@ -583,51 +583,51 @@ class OpsDroid:
     def get_skill(self, name):
         """Get a pointer to a skill method.
 
-        Get a specific skill method by name from the methods available
+        Get a specific skill method by name or path from the methods available
 
         Args:
-            name (string): Name of the skill method we want to access.
+            name (string): Name of the skill method we want to access (might include longer path).
 
         Returns:
-            skill method (opsdroid.skill.Skill.name): A skill method.
+            skill method: A pointer to a skill method.
 
         """
+        # TODO this function should probably be refactored when completed
+        path = name.split(".")
         try:
-            
-            best_match = ("", 3) # 0: Path, 1: ranking of the path
-            current_match = "" 
-
-            for skill in self.skills:
-                skill_methods = inspect.getmembers(skill, predicate=inspect.ismethod)
-                config_name = skill # TODO This can be wrong, will have to check
-
-                for method_name, method in skill_methods:
-                    class_name = skill.__class__.__name__
-
-                    # Make sure to return longest path when duplicate options exists
-                    current_match = f"opsdroid_modules.skill.{config_name}.{class_name}.{method_name}"# Highest correctness
-                    
-                    if  current == name:
-                        return current
-                    
-                    current_match = f"{config_name}.{class_name}.{method_name}" # 2nd Highest correctness 
-
-                    if current_match == name:
-                        best_match = (current, 1)
-                    
-                    current_match = f"{class_name}.{method_name}" # 3rd Highest correctness
-
-                    if current_match == name and best_match[1] > 2:
-                        best_match = (current, 2)
-                    
-                    current_match == method_name # 4th Highest correctness
-                    
-                    if current_match == name and best_match[1] >= 3:
-                        best_match = (current, 3)
-
-            return best_match
-
-            return None
+            if len(path) == 1:
+                for skill in self.skills:
+                    method_name = skill.__name__
+                    if method_name == name:
+                        return skill
+                return None
+            if len(path) == 2:
+                for skill in self.skills:
+                    class_name = self.get_skill_instance(skill).__class__.__name__
+                    method_name = skill.__name__
+                    if f"{class_name}.{method_name}" == name:
+                        return skill
+                return None
+            if len(path) == 3:
+                for skill in self.skills:
+                    class_name = self.get_skill_instance(skill).__class__.__name__
+                    method_name = skill.__name__
+                    if f"{class_name}.{method_name}" == f"{path[1]}.{path[2]}":
+                        config_skill_name = path[0]
+                        skill_conf = self.config["skills"][config_skill_name]    # TODO if this exists?
+                        return skill
+                return None
+            if len(path) == 5:
+                for skill in self.skills:
+                    class_name = self.get_skill_instance(skill).__class__.__name__
+                    method_name = skill.__name__
+                    if f"{class_name}.{method_name}" == f"{path[1]}.{path[2]}":
+                        config_skill_name = path[2]
+                        skill_conf = self.config["skills"][config_skill_name]    # TODO if this exists?
+                        return skill
+                return None
+            else:
+                raise ValueError("Invalid skill path")
         except ValueError:
             return None
 
