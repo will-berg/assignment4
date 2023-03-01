@@ -1,0 +1,363 @@
+Running Sphinx v5.3.0
+loading pickled environment... done
+building [mo]: targets for 0 po files that are out of date
+building [linkcheck]: targets for 68 source files that are out of date
+updating environment: [config changed ('recommonmark_config')] 68 added, 0 changed, 0 removed
+reading sources... [  1%] cli
+reading sources... [  2%] configuration
+reading sources... [  4%] connectors/custom
+reading sources... [  5%] connectors/facebook
+reading sources... [  7%] connectors/github
+reading sources... [  8%] connectors/gitlab
+reading sources... [ 10%] connectors/gitter
+reading sources... [ 11%] connectors/index
+reading sources... [ 13%] connectors/matrix
+reading sources... [ 14%] connectors/mattermost
+reading sources... [ 16%] connectors/rocketchat
+reading sources... [ 17%] connectors/shell
+reading sources... [ 19%] connectors/slack
+reading sources... [ 20%] connectors/teams
+reading sources... [ 22%] connectors/telegram
+reading sources... [ 23%] connectors/twitch
+reading sources... [ 25%] connectors/webexteams
+reading sources... [ 26%] connectors/websocket
+reading sources... [ 27%] contributing/documentation
+reading sources... [ 29%] contributing/index
+reading sources... [ 30%] contributing/issues
+reading sources... [ 32%] contributing/localization
+reading sources... [ 33%] contributing/new_modules
+reading sources... [ 35%] contributing/testing
+reading sources... [ 36%] contributing/workflow
+reading sources... [ 38%] databases/custom
+reading sources... [ 39%] databases/index
+reading sources... [ 41%] databases/matrix
+reading sources... [ 42%] databases/mongo
+reading sources... [ 44%] databases/redis
+reading sources... [ 45%] databases/sqlite
+reading sources... [ 47%] examples/flip-a-coin
+reading sources... [ 48%] examples/how-are-you
+reading sources... [ 50%] examples/index
+reading sources... [ 51%] examples/stocks-portfolio
+reading sources... [ 52%] examples/weather
+reading sources... [ 54%] exposing
+reading sources... [ 55%] index
+reading sources... [ 57%] installation
+reading sources... [ 58%] maintaining/index
+reading sources... [ 60%] maintaining/making-a-release
+reading sources... [ 61%] maintaining/overview
+reading sources... [ 63%] maintaining/supported-python-versions
+reading sources... [ 64%] overview
+reading sources... [ 66%] packaging
+reading sources... [ 67%] quickstart
+reading sources... [ 69%] rest-api
+reading sources... [ 70%] skills/constraints
+reading sources... [ 72%] skills/events
+reading sources... [ 73%] skills/index
+reading sources... [ 75%] skills/matchers/always
+reading sources... [ 76%] skills/matchers/catchall
+reading sources... [ 77%] skills/matchers/crontab
+reading sources... [ 79%] skills/matchers/dialogflow
+reading sources... [ 80%] skills/matchers/event
+reading sources... [ 82%] skills/matchers/index
+reading sources... [ 83%] skills/matchers/luis.ai
+reading sources... [ 85%] skills/matchers/parse
+reading sources... [ 86%] skills/matchers/rasanlu
+reading sources... [ 88%] skills/matchers/regex
+reading sources... [ 89%] skills/matchers/sapcai
+reading sources... [ 91%] skills/matchers/watson
+reading sources... [ 92%] skills/matchers/webhook
+reading sources... [ 94%] skills/matchers/wit.ai
+reading sources... [ 95%] skills/memory
+reading sources... [ 97%] skills/setup
+reading sources... [ 98%] testing
+reading sources... [100%] why
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+writing output... [  1%] cli
+writing output... [  2%] configuration
+writing output... [  4%] connectors/custom
+writing output... [  5%] connectors/facebook
+writing output... [  7%] connectors/github
+writing output... [  8%] connectors/gitlab
+writing output... [ 10%] connectors/gitter
+writing output... [ 11%] connectors/index
+writing output... [ 13%] connectors/matrix
+writing output... [ 14%] connectors/mattermost
+writing output... [ 16%] connectors/rocketchat
+writing output... [ 17%] connectors/shell
+writing output... [ 19%] connectors/slack
+writing output... [ 20%] connectors/teams
+writing output... [ 22%] connectors/telegram
+writing output... [ 23%] connectors/twitch
+writing output... [ 25%] connectors/webexteams
+writing output... [ 26%] connectors/websocket
+writing output... [ 27%] contributing/documentation
+writing output... [ 29%] contributing/index
+writing output... [ 30%] contributing/issues
+writing output... [ 32%] contributing/localization
+writing output... [ 33%] contributing/new_modules
+writing output... [ 35%] contributing/testing
+writing output... [ 36%] contributing/workflow
+writing output... [ 38%] databases/custom
+writing output... [ 39%] databases/index
+writing output... [ 41%] databases/matrix
+writing output... [ 42%] databases/mongo
+writing output... [ 44%] databases/redis
+writing output... [ 45%] databases/sqlite
+writing output... [ 47%] examples/flip-a-coin
+writing output... [ 48%] examples/how-are-you
+writing output... [ 50%] examples/index
+writing output... [ 51%] examples/stocks-portfolio
+writing output... [ 52%] examples/weather
+writing output... [ 54%] exposing
+writing output... [ 55%] index
+writing output... [ 57%] installation
+writing output... [ 58%] maintaining/index
+writing output... [ 60%] maintaining/making-a-release
+writing output... [ 61%] maintaining/overview
+writing output... [ 63%] maintaining/supported-python-versions
+writing output... [ 64%] overview
+writing output... [ 66%] packaging
+writing output... [ 67%] quickstart
+writing output... [ 69%] rest-api
+writing output... [ 70%] skills/constraints
+writing output... [ 72%] skills/events
+writing output... [ 73%] skills/index
+writing output... [ 75%] skills/matchers/always
+writing output... [ 76%] skills/matchers/catchall
+writing output... [ 77%] skills/matchers/crontab
+writing output... [ 79%] skills/matchers/dialogflow
+writing output... [ 80%] skills/matchers/event
+writing output... [ 82%] skills/matchers/index
+writing output... [ 83%] skills/matchers/luis.ai
+writing output... [ 85%] skills/matchers/parse
+writing output... [ 86%] skills/matchers/rasanlu
+writing output... [ 88%] skills/matchers/regex
+writing output... [ 89%] skills/matchers/sapcai
+writing output... [ 91%] skills/matchers/watson
+writing output... [ 92%] skills/matchers/webhook
+writing output... [ 94%] skills/matchers/wit.ai
+writing output... [ 95%] skills/memory
+writing output... [ 97%] skills/setup
+writing output... [ 98%] testing
+writing output... [100%] why
+
+
+(connectors/slack: line  316) broken    ./slack.md#user-content-block_actions - 
+(connectors/custom: line   96) broken    ../configuration.md#connector-modules - 
+(   configuration: line  537) ok        http://jupyter.org/
+(skills/matchers/webhook: line    3) broken    http://localhost:8080/skill/exampleskill - HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /skill/exampleskill (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x107e9ce20>: Failed to establish a new connection: [Errno 61] Connection refused'))
+(maintaining/making-a-release: line   29) redirect  http://semver.org/ - permanently to https://semver.org/
+(skills/matchers/webhook: line   30) redirect  http://aiohttp.readthedocs.io/en/stable/web_reference.html#aiohttp.web.BaseRequest - with Found to https://docs.aiohttp.org/en/stable/web_reference.html#aiohttp.web.BaseRequest
+(contributing/documentation: line   15) redirect  http://www.sphinx-doc.org/en/master/ - with Found to https://www.sphinx-doc.org/en/master/
+(contributing/documentation: line   50) redirect  http://www.sphinx-doc.org/en/master/usage/extensions/autodoc.html - with Found to https://www.sphinx-doc.org/en/master/usage/extensions/autodoc.html
+(       packaging: line   64) redirect  http://www.zodb.org - with Found to https://zodb.org/en/latest/
+(        exposing: line  225) ok        http://localhost.run/
+(contributing/localization: line    2) redirect  http://babel.pocoo.org/en/latest/index.html - with Found to https://babel.pocoo.org/en/latest/index.html
+(connectors/slack: line   29) ok        https://api.slack.com/apps
+(connectors/slack: line   21) ok        https://api.slack.com/apis/connections/socket
+(connectors/slack: line   21) ok        https://api.slack.com/apis/connections/events-api
+(connectors/slack: line  244) ok        https://api.slack.com/interactivity
+(contributing/documentation: line   31) redirect  http://docutils.sourceforge.net/rst.html - permanently to https://docutils.sourceforge.io/rst.html
+(connectors/slack: line  246) ok        https://api.slack.com/interactivity/handling
+(connectors/slack: line   75) ok        https://api.slack.com/faq#events_api
+(connectors/slack: line  220) ok        https://api.slack.com/interactivity/slash-commands
+(connectors/slack: line  258) ok        https://api.slack.com/reference/interaction-payloads/block-actions
+(connectors/slack: line  152) ok        https://api.slack.com/messaging/composing/layouts
+(connectors/slack: line  272) redirect  https://api.slack.com/reference/interaction-payloads/actions - with Found to https://api.slack.com/reference/interaction-payloads/shortcuts
+(connectors/slack: line  300) ok        https://api.slack.com/reference/interaction-payloads/views#view_closed
+(   configuration: line  690) broken    https://app.element.io/#/room/#opsdroid-general:matrix.org - Anchor '/room/#opsdroid-general:matrix.org' not found
+(contributing/workflow: line   67) ok        https://black.readthedocs.io/en/stable/
+(connectors/slack: line  286) ok        https://api.slack.com/reference/interaction-payloads/views#view_submission
+(   configuration: line   65) ok        https://api.slack.com/tokens
+(connectors/slack: line  235) ok        https://api.slack.com/surfaces/modals/using
+(skills/matchers/sapcai: line    5) ok        https://cai.tools.sap/
+(connectors/slack: line  152) redirect  https://api.slack.com/reference/messaging/blocks - with Found to https://api.slack.com/reference/block-kit/blocks
+(skills/matchers/sapcai: line   86) ok        https://cai.tools.sap/docs/concepts/create-builder-bot
+(skills/matchers/sapcai: line    5) ok        https://cai.tools.sap/docs/concepts/intent
+(skills/matchers/sapcai: line   84) ok        https://cai.tools.sap/signup
+(        exposing: line    2) broken    https://blog.alexellis.io/https-inlets-local-endpoints/ - 404 Client Error: Not Found for url: https://blog.alexellis.io/https-inlets-local-endpoints/
+(skills/matchers/dialogflow: line   85) redirect  https://cloud.google.com/dialogflow/docs/basics - with Found to https://cloud.google.com/dialogflow/es/docs/basics
+(skills/matchers/dialogflow: line    5) redirect  https://cloud.google.com/dialogflow/docs/intents-overview - with Found to https://cloud.google.com/dialogflow/es/docs/intents-overview
+(skills/matchers/dialogflow: line   85) redirect  https://cloud.google.com/dialogflow/docs/quick/ - permanently to https://cloud.google.com/dialogflow/es/docs/quick
+(skills/matchers/watson: line  143) ok        https://cloud.ibm.com/docs/services/assistant?topic=assistant-getting-started
+(skills/matchers/watson: line    3) ok        https://cloud.ibm.com/docs/services/assistant?topic=assistant-intents
+(skills/matchers/dialogflow: line    5) redirect  https://cloud.google.com/dialogflow/docs/intents-actions-parameters - with Found to https://cloud.google.com/dialogflow/es/docs/intents-actions-parameters
+(connectors/twitch: line    8) ok        https://dev.twitch.tv/console/apps
+(skills/matchers/dialogflow: line   89) redirect  https://cloud.google.com/dialogflow/docs/reference/language - permanently to https://cloud.google.com/dialogflow/es/docs/reference/language
+(connectors/twitch: line   49) broken    https://dev.twitch.tv/docs/irc/guide#scopes-for-irc-commands - Anchor 'scopes-for-irc-commands' not found
+(connectors/twitch: line   49) broken    https://dev.twitch.tv/docs/v5/guides/migration#scopes - 404 Client Error: Not Found for url: https://dev.twitch.tv/docs/v5/guides/migration
+(connectors/gitter: line   27) broken    https://developer.gitter.im/apps - HTTPSConnectionPool(host='developer.gitter.im', port=443): Max retries exceeded with url: /apps (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x107e9ce20>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+(connectors/gitter: line   28) broken    https://developer.gitter.im/docs/rooms-resource - HTTPSConnectionPool(host='developer.gitter.im', port=443): Max retries exceeded with url: /docs/rooms-resource (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x107e9cdc0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+(connectors/gitter: line    3) broken    https://developer.gitter.im/docs/welcome - HTTPSConnectionPool(host='developer.gitter.im', port=443): Max retries exceeded with url: /docs/welcome (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x107d26580>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+(skills/matchers/dialogflow: line   17) redirect  https://console.dialogflow.com - permanently to https://dialogflow.cloud.google.com/
+(connectors/telegram: line    1) ok        https://docs.aiohttp.org/en/stable/web_reference.html#aiohttp.web.Request
+(connectors/telegram: line    1) ok        https://docs.aiohttp.org/en/stable/web_reference.html#aiohttp.web.Response
+(connectors/github: line    7) redirect  https://docs.github.com/en/developers/webhooks-and-events/creating-webhooks#secret - permanently to https://docs.github.com/en/webhooks-and-events/webhooks/creating-webhooks#secret
+(skills/matchers/dialogflow: line    7) redirect  https://cloud.google.com/docs/authentication/getting-started - permanently to https://cloud.google.com/docs/authentication/client-libraries
+(skills/matchers/dialogflow: line   89) redirect  https://cloud.google.com/dialogflow/docs/agents-multilingual - with Found to https://cloud.google.com/dialogflow/es/docs/agents-multilingual
+(        exposing: line  300) ok        https://docs.inlets.dev/
+(connectors/facebook: line    3) ok        https://developers.facebook.com/docs/messenger-platform/
+(skills/matchers/luis.ai: line   17) redirect  https://docs.microsoft.com/en-us/azure/cognitive-services/LUIS/Home - permanently to https://learn.microsoft.com/en-us/azure/cognitive-services/luis/what-is-luis
+(skills/matchers/luis.ai: line   40) redirect  https://docs.microsoft.com/en-us/azure/cognitive-services/LUIS/luis-get-started-create-app - permanently to https://learn.microsoft.com/en-us/azure/cognitive-services/LUIS/luis-get-started-create-app
+(connectors/gitlab: line    5) ok        https://docs.gitlab.com/ee/api/
+(skills/matchers/luis.ai: line   44) redirect  https://docs.microsoft.com/en-us/azure/cognitive-services/LUIS/luis-supported-languages - permanently to https://learn.microsoft.com/en-us/azure/cognitive-services/LUIS/luis-language-support
+(connectors/slack: line   88) ok        https://docs.opsdroid.dev/en/latest/exposing.html
+(connectors/gitlab: line   12) ok        https://docs.gitlab.com/ee/user/project/integrations/webhooks.html
+(           index: line   86) ok        https://docs.opsdroid.dev/en/stable/contributing/
+(contributing/new_modules: line    6) ok        https://docs.opsdroid.dev/en/stable/index.html
+(contributing/testing: line    5) redirect  https://docs.pytest.org - with Found to https://docs.pytest.org/en/7.2.x/
+(contributing/testing: line    5) ok        https://docs.python.org/3.8/library/unittest.html
+(connectors/mattermost: line    8) ok        https://docs.mattermost.com/developer/bot-accounts.html
+(contributing/testing: line   20) redirect  https://docs.pytest.org/en/stable/fixture.html - with Found to https://docs.pytest.org/en/stable/explanation/fixtures.html
+(connectors/custom: line   14) ok        https://docs.python.org/3/library/asyncio-eventloop.html
+(        overview: line   73) ok        https://docs.python.org/3/library/asyncio.html
+(        overview: line   73) ok        https://docs.python.org/3/library/asyncio-task.html#coroutines
+(contributing/localization: line    2) ok        https://docs.python.org/3/library/gettext.html
+(skills/matchers/parse: line    5) ok        https://docs.python.org/3/library/string.html#format-string-syntax
+(contributing/documentation: line   29) ok        https://en.wikipedia.org/wiki/Basic_English
+(skills/matchers/crontab: line    3) ok        https://en.wikipedia.org/wiki/Cron
+(contributing/localization: line   28) ok        https://en.wikipedia.org/wiki/Esperanto
+(skills/matchers/dialogflow: line    5) redirect  https://dialogflow.com/ - permanently to https://cloud.google.com/dialogflow/docs/
+(   configuration: line  460) ok        https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
+(   configuration: line  450) ok        https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+(        overview: line   14) ok        https://en.wikipedia.org/wiki/Machine_vision
+(contributing/documentation: line   31) ok        https://en.wikipedia.org/wiki/Markdown
+(        overview: line   14) ok        https://en.wikipedia.org/wiki/Natural-language_understanding
+(      quickstart: line   88) ok        https://en.wikipedia.org/wiki/Regular_expression
+(connectors/gitter: line    5) ok        https://en.wikipedia.org/wiki/Shadow_banning
+(connectors/github: line    3) ok        https://github.com
+(        overview: line    5) ok        https://docs.stackstorm.com/chatops/chatops.html
+(connectors/github: line   38) redirect  https://github.com/blog/1509-personal-api-tokens - permanently to https://github.blog/2013-05-16-personal-api-tokens/
+(connectors/github: line   39) redirect  https://github.com/blog/1933-introducing-organization-webhooks - permanently to https://github.blog/2014-12-03-introducing-organization-webhooks/
+(skills/matchers/rasanlu: line   27) ok        https://github.com/RasaHQ/rasa
+(    skills/index: line   44) ok        https://github.com/alecthomas/voluptuous
+(connectors/twitch: line  140) ok        https://github.com/FabioRosado/skill-twitch
+(        exposing: line  311) broken    https://github.com/inlets/inlets#get-inlets - 404 Client Error: Not Found for url: https://github.com/inlets/inlets
+(maintaining/making-a-release: line   13) ok        https://github.com/conda-forge/opsdroid-feedstock
+(        exposing: line  315) ok        https://github.com/digitalocean/doctl
+(        exposing: line  298) broken    https://github.com/inlets/inlets - 404 Client Error: Not Found for url: https://github.com/inlets/inlets
+(        exposing: line  315) broken    https://github.com/digitalocean/doctl#authenticating-with-digitalocean - Anchor 'authenticating-with-digitalocean' not found
+(        exposing: line  313) broken    https://github.com/inlets/inlets/blob/master/hack/userdata.sh - 404 Client Error: Not Found for url: https://github.com/inlets/inlets/blob/master/hack/userdata.sh
+(        exposing: line  168) ok        https://github.com/localtunnel/localtunnel
+(        exposing: line  313) broken    https://github.com/inlets/inlets/tree/master/hack - 404 Client Error: Not Found for url: https://github.com/inlets/inlets/tree/master/hack
+(        exposing: line  305) ok        https://github.com/inlets/inlets-operator
+(       packaging: line   62) ok        https://github.com/koodaamo/opsdroid-zodb
+(maintaining/making-a-release: line   39) ok        https://github.com/marketplace/actions/release-drafter
+(   configuration: line   41) ok        https://github.com/opsdroid/connector-shell
+(contributing/issues: line   18) ok        https://github.com/opsdroid
+(contributing/index: line   10) ok        https://github.com/opsdroid/opsdroid-audio
+(contributing/index: line    8) ok        https://github.com/opsdroid/opsdroid.github.io
+(connectors/github: line    3) ok        https://github.com/opsdroid/opsdroid
+(   configuration: line   19) ok        https://github.com/opsdroid/opsdroid/blob/master/opsdroid/configuration/example_configuration.yaml
+(connectors/shell: line    5) ok        https://github.com/opsdroid/opsdroid-desktop
+(maintaining/making-a-release: line   54) ok        https://github.com/opsdroid/opsdroid/actions/
+(    installation: line   62) ok        https://github.com/opsdroid/opsdroid/blob/master/setup.cfg#L79
+(        exposing: line    2) redirect  https://github.com/opsdroid/opsdroid/edit/master/docs/exposing.md - with Found to https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fopsdroid%2Fopsdroid%2Fedit%2Fmaster%2Fdocs%2Fexposing.md
+(maintaining/supported-python-versions: line   20) broken    https://github.com/opsdroid/opsdroid/edit/master/docs/project/supported-python-versions.md - 404 Client Error: Not Found for url: https://github.com/opsdroid/opsdroid/edit/master/docs/project/supported-python-versions.md
+(contributing/index: line    5) ok        https://github.com/opsdroid/opsdroid/issues
+(contributing/issues: line   10) ok        https://github.com/opsdroid/opsdroid/issues?q=is:issue+is:open+label:%22good+first+issue%22
+(contributing/issues: line   13) ok        https://github.com/opsdroid/opsdroid/issues?q=is:issue+is:open+label:advanced
+(maintaining/overview: line   26) ok        https://github.com/opsdroid/opsdroid/issues/1
+(connectors/gitter: line    5) ok        https://github.com/opsdroid/opsdroid/issues/1693#issuecomment-754629627
+(contributing/testing: line    5) ok        https://github.com/opsdroid/opsdroid/issues/1502
+(contributing/issues: line   11) ok        https://github.com/opsdroid/opsdroid/issues?q=is:issue+is:open+label:beginner
+(contributing/issues: line   14) ok        https://github.com/opsdroid/opsdroid/issues?q=is:issue+is:open+label:bug
+(contributing/documentation: line   11) ok        https://github.com/opsdroid/opsdroid/issues?q=is:issue+is:open+label:documentation
+(contributing/issues: line   16) ok        https://github.com/opsdroid/opsdroid/issues?q=is:issue+is:open+label:enhancement
+(contributing/issues: line   12) ok        https://github.com/opsdroid/opsdroid/issues?q=is:issue+is:open+label:intermediate
+(maintaining/making-a-release: line   53) ok        https://github.com/opsdroid/opsdroid/tags
+(contributing/index: line    6) ok        https://github.com/opsdroid/opsdroid/tree/master/docs
+(maintaining/overview: line   23) redirect  https://github.com/opsdroid/opsdroid/tree/master/.github/PULL_REQUEST_TEMPLATE.md - permanently to https://github.com/opsdroid/opsdroid/blob/master/.github/PULL_REQUEST_TEMPLATE.md
+(maintaining/overview: line   45) ok        https://github.com/opsdroid/opsdroid/tree/master/scripts
+(contributing/index: line   12) ok        https://github.com/opsdroid/style-guidelines
+(   configuration: line   41) ok        https://github.com/opsdroid/skill-hello
+(        exposing: line   98) ok        https://github.com/pagekite/PyPagekite/
+(contributing/testing: line   15) ok        https://github.com/pytest-dev/pytest-mock/
+(contributing/testing: line   13) ok        https://github.com/pytest-dev/pytest-asyncio
+(skills/matchers/parse: line    7) ok        https://github.com/r1chardj0n3s/parse
+(skills/matchers/parse: line  120) broken    https://github.com/r1chardj0n3s/parse#format-specification - Anchor 'format-specification' not found
+(maintaining/making-a-release: line   14) ok        https://github.com/opsdroid/opsdroid/pkgs/container/opsdroid
+(examples/stocks-portfolio: line    5) ok        https://github.com/ranaroussi/yfinance
+(connectors/gitlab: line    3) redirect  https://gitlab.com - permanently to https://about.gitlab.com/
+(        exposing: line   90) ok        https://github.com/vincenthsu/systemd-ngrok
+(contributing/documentation: line   15) ok        https://github.com/readthedocs/recommonmark
+(connectors/matrix: line   65) ok        https://gitlab.matrix.org/matrix-org/olm/
+(maintaining/making-a-release: line   14) ok        https://hub.docker.com/r/opsdroid/opsdroid/
+(maintaining/making-a-release: line   16) redirect  https://help.github.com/articles/creating-releases/ - with Found to https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository
+(connectors/teams: line    9) ok        https://i.imgur.com/3fIuhIq.png
+(connectors/gitlab: line   13) -ignored- https://gitlab.com/-/profile/personal_access_tokens: 503 Server Error: Service Temporarily Unavailable for url: https://gitlab.com/users/sign_in
+(connectors/teams: line   36) ok        https://i.imgur.com/9N2HcjW.png
+(connectors/teams: line   13) ok        https://i.imgur.com/F4IpEMP.png
+(connectors/teams: line   32) ok        https://i.imgur.com/gKfOyyK.png
+(connectors/teams: line   26) ok        https://i.imgur.com/a93glAU.png
+(      quickstart: line  117) ok        https://i.imgur.com/hVsWUTT.png
+(connectors/teams: line   17) ok        https://i.imgur.com/poWcVT5.png
+(connectors/teams: line   59) ok        https://i.imgur.com/rl1FHAD.png
+(      quickstart: line   61) ok        https://i.imgur.com/kaW6yb1.png
+(connectors/teams: line   21) ok        https://i.imgur.com/uTg4dOL.png
+(maintaining/making-a-release: line   56) broken    https://ifttt.com - 403 Client Error: Forbidden for url: https://ifttt.com/
+(        exposing: line   90) ok        https://hub.docker.com/r/wernight/ngrok/
+(maintaining/making-a-release: line   55) ok        https://hub.docker.com/r/opsdroid/opsdroid/tags/
+(        exposing: line  296) ok        https://inlets.dev/
+(           index: line   35) redirect  https://img.shields.io/twitter/url/http/shields.io.svg?style=social - permanently to https://img.shields.io/twitter/url.svg?style=social&url=http%3A%2F%2Fshields.io
+(        exposing: line  170) ok        https://localtunnel.github.io/www/
+(skills/matchers/rasanlu: line  175) ok        https://learning.rasa.com/conversational-ai-with-rasa/entities/#roles-and-groups
+(maintaining/supported-python-versions: line    3) ok        https://numpy.org/neps/nep-0029-deprecation_policy.html
+(connectors/matrix: line   11) broken    https://matrix.org/faq/#what-is-a-homeserver%3F - Anchor 'what-is-a-homeserver%3F' not found
+(connectors/mattermost: line    3) ok        https://mattermost.com/
+(contributing/index: line   43) broken    https://opencollective.com/opsdroid#backer - Anchor 'backer' not found
+(contributing/index: line   50) broken    https://opencollective.com/opsdroid#sponsor - Anchor 'sponsor' not found
+(connectors/rocketchat: line    7) ok        https://open.rocket.chat/home
+(        exposing: line   28) ok        https://ngrok.com/
+(        exposing: line   34) ok        https://ngrok.com/download
+(             cli: line    1) redirect  https://opsdroid.github.io/ - permanently to https://opsdroid.dev/
+(examples/how-are-you: line   86) redirect  https://opsdroid.github.io - permanently to https://opsdroid.dev/
+(examples/weather: line    5) ok        https://openweathermap.org
+(examples/weather: line   57) ok        https://openweathermap.org/current
+(  examples/index: line    5) ok        https://playground.opsdroid.dev
+(examples/weather: line    5) ok        https://openweathermap.org/price
+(contributing/localization: line   20) ok        https://poedit.net/
+(contributing/testing: line   15) ok        https://pypi.org/project/mock/
+(maintaining/making-a-release: line   12) ok        https://pypi.org/project/opsdroid/
+(maintaining/making-a-release: line   54) redirect  https://pypi.python.org/pypi/opsdroid - permanently to https://pypi.org/project/opsdroid/
+(contributing/workflow: line   79) ok        https://pre-commit.com
+(        exposing: line  100) ok        https://pagekite.net/
+(        exposing: line  106) ok        https://pagekite.net/downloads
+(skills/matchers/rasanlu: line   29) ok        https://rasa.com/docs/rasa/nlu-training-data
+(skills/matchers/rasanlu: line   27) ok        https://rasa.com/docs/rasa/
+(        exposing: line  160) ok        https://pagekite.net/wiki/HowTo/
+(   configuration: line  191) ok        https://rich.readthedocs.io/en/stable/logging.html
+(       packaging: line   44) broken    https://setuptools.readthedocs.io/en/latest/setuptools.html#dynamic-discovery-of-services-and-plugins - Anchor 'dynamic-discovery-of-services-and-plugins' not found
+(skills/matchers/rasanlu: line   29) ok        https://rasa.com/docs/rasa/pages/http-api
+( databases/redis: line    3) ok        https://redis.io/
+(connectors/telegram: line    3) ok        https://telegram.org/
+(connectors/slack: line    3) ok        https://slack.com/
+(contributing/documentation: line   15) ok        https://readthedocs.org/
+(connectors/rocketchat: line    3) redirect  https://rocket.chat - permanently to https://www.rocket.chat/
+(connectors/twitch: line    3) redirect  https://twitch.tv/ - permanently to https://www.twitch.tv/
+(connectors/slack: line  199) ok        https://user-images.githubusercontent.com/1610850/58658951-ac523300-8319-11e9-8c2a-011469a436d0.png
+(           index: line   35) ok        https://twitter.com/intent/tweet?text=Check%20out%20opsdroid,%20an%20awesome%20open%20source%20chatbot%20framework%20written%20in%20Python.&url=https://opsdroid.github.io/&via=opsdroid&hashtags=chatbots,chatops,devops,automation,opensource
+(maintaining/making-a-release: line   56) ok        https://twitter.com/opsdroid
+(skills/matchers/wit.ai: line   18) ok        https://wit.ai
+(skills/matchers/wit.ai: line   18) broken    https://wit.ai/docs/recipes#categorize-the-user-intent - Anchor 'categorize-the-user-intent' not found
+(    skills/index: line   80) redirect  https://slack.com/intl/en-gb/help/articles/206870317-use-emoji-reactions - with Found to https://slack.com/help/articles/202931348-Use-emoji-and-reactions
+(skills/matchers/wit.ai: line   54) ok        https://wit.ai/getting-started
+(skills/matchers/watson: line    3) ok        https://www.ibm.com/watson
+(skills/matchers/watson: line  141) redirect  https://www.ibm.com/ - permanently to https://www.ibm.com/us-en/
+(connectors/teams: line    3) redirect  https://www.microsoft.com/en-gb/microsoft-365/microsoft-teams/group-chat-software - permanently to https://www.microsoft.com/en-gb/microsoft-teams/group-chat-software
+(contributing/documentation: line   15) ok        https://www.sphinx-doc.org/en/master/usage/extensions/napoleon.html
+(        exposing: line    6) ok        https://www.duckdns.org/
+(   configuration: line  450) ok        https://www.iana.org/time-zones
+(connectors/webexteams: line    3) ok        https://www.webex.com/team-collaboration.html
+(skills/matchers/luis.ai: line   17) ok        https://www.luis.ai
+(    installation: line   16) ok        https://www.youtube.com/watch?v=7wyIi_cpodE&list=PLViQCHlMbEq5nZL6VNrUxu--Of1uCpflq
+(        overview: line   36) ok        https://yaml.org/
+( databases/mongo: line    3) ok        https://www.mongodb.com/
+(examples/how-are-you: line    3) ok        https://www.youtube.com/watch?v=gk7JN4e5l_4&index=3&list=PLViQCHlMbEq5nZL6VNrUxu--Of1uCpflq
+(examples/stocks-portfolio: line    5) ok        https://www.sqlite.org/index.html
+(databases/sqlite: line    3) redirect  https://www.sqlite.org/ - permanently to https://www.sqlite.org/index.html
+build finished with problems.

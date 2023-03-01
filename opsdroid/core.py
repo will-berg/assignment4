@@ -580,7 +580,17 @@ class OpsDroid:
         except ValueError:
             return None
 
-    def get_skill(self, name):
+
+    def get_skil_by_name():
+       pass
+
+    def get_skil_by_name_and_class():
+       pass 
+    
+    def get_skill_with_full_path():
+       pass    
+
+    def get_skill(self, name):   
         """Get a pointer to a skill method.
 
         Get a specific skill method by name or path from the methods available
@@ -608,23 +618,15 @@ class OpsDroid:
                     if f"{class_name}.{method_name}" == name:
                         return skill
                 return None
-            if len(path) == 3:
+            if len(path) == 3 or len(path) == 5:
                 for skill in self.skills:
                     class_name = self.get_skill_instance(skill).__class__.__name__
                     method_name = skill.__name__
                     if f"{class_name}.{method_name}" == f"{path[1]}.{path[2]}":
-                        config_skill_name = path[0]
-                        skill_conf = self.config["skills"][config_skill_name]    # TODO if this exists?
-                        return skill
-                return None
-            if len(path) == 5:
-                for skill in self.skills:
-                    class_name = self.get_skill_instance(skill).__class__.__name__
-                    method_name = skill.__name__
-                    if f"{class_name}.{method_name}" == f"{path[1]}.{path[2]}":
-                        config_skill_name = path[2]
-                        skill_conf = self.config["skills"][config_skill_name]    # TODO if this exists?
-                        return skill
+                        path_file_name = self.config["skills"][path[0]]["path"].split("/")[-1]
+                        file_name = inspect.getfile(self.get_skill_instance(skill).__class__)
+                        if path_file_name == file_name: 
+                            return skill 
                 return None
             else:
                 raise ValueError("Invalid skill path")

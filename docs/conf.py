@@ -91,3 +91,5 @@ def setup(app):
     app.add_transform(AutoStructify)
     app.add_source_suffix(".md", "markdown")
     app.add_source_parser(CommonMarkParser)
+
+

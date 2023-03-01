@@ -1,0 +1,25 @@
+(connectors/slack: line  316) broken    ./slack.md#user-content-block_actions - 
+(connectors/custom: line   96) broken    ../configuration.md#connector-modules - 
+(skills/matchers/webhook: line    3) broken    http://localhost:8080/skill/exampleskill - HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /skill/exampleskill (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x107e9ce20>: Failed to establish a new connection: [Errno 61] Connection refused'))
+(   configuration: line  690) broken    https://app.element.io/#/room/#opsdroid-general:matrix.org - Anchor '/room/#opsdroid-general:matrix.org' not found
+(        exposing: line    2) broken    https://blog.alexellis.io/https-inlets-local-endpoints/ - 404 Client Error: Not Found for url: https://blog.alexellis.io/https-inlets-local-endpoints/
+(connectors/twitch: line   49) broken    https://dev.twitch.tv/docs/irc/guide#scopes-for-irc-commands - Anchor 'scopes-for-irc-commands' not found
+(connectors/twitch: line   49) broken    https://dev.twitch.tv/docs/v5/guides/migration#scopes - 404 Client Error: Not Found for url: https://dev.twitch.tv/docs/v5/guides/migration
+(connectors/gitter: line   27) broken    https://developer.gitter.im/apps - HTTPSConnectionPool(host='developer.gitter.im', port=443): Max retries exceeded with url: /apps (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x107e9ce20>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+(connectors/gitter: line   28) broken    https://developer.gitter.im/docs/rooms-resource - HTTPSConnectionPool(host='developer.gitter.im', port=443): Max retries exceeded with url: /docs/rooms-resource (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x107e9cdc0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+(connectors/gitter: line    3) broken    https://developer.gitter.im/docs/welcome - HTTPSConnectionPool(host='developer.gitter.im', port=443): Max retries exceeded with url: /docs/welcome (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x107d26580>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+(        exposing: line  311) broken    https://github.com/inlets/inlets#get-inlets - 404 Client Error: Not Found for url: https://github.com/inlets/inlets
+(        exposing: line  298) broken    https://github.com/inlets/inlets - 404 Client Error: Not Found for url: https://github.com/inlets/inlets
+(        exposing: line  315) broken    https://github.com/digitalocean/doctl#authenticating-with-digitalocean - Anchor 'authenticating-with-digitalocean' not found
+(        exposing: line  313) broken    https://github.com/inlets/inlets/blob/master/hack/userdata.sh - 404 Client Error: Not Found for url: https://github.com/inlets/inlets/blob/master/hack/userdata.sh
+(        exposing: line  313) broken    https://github.com/inlets/inlets/tree/master/hack - 404 Client Error: Not Found for url: https://github.com/inlets/inlets/tree/master/hack
+(maintaining/supported-python-versions: line   20) broken    https://github.com/opsdroid/opsdroid/edit/master/docs/project/supported-python-versions.md - 404 Client Error: Not Found for url: https://github.com/opsdroid/opsdroid/edit/master/docs/project/supported-python-versions.md
+(skills/matchers/parse: line  120) broken    https://github.com/r1chardj0n3s/parse#format-specification - Anchor 'format-specification' not found
+(maintaining/making-a-release: line   56) broken    https://ifttt.com - 403 Client Error: Forbidden for url: https://ifttt.com/
+(connectors/matrix: line   11) broken    https://matrix.org/faq/#what-is-a-homeserver%3F - Anchor 'what-is-a-homeserver%3F' not found
+(contributing/index: line   43) broken    https://opencollective.com/opsdroid#backer - Anchor 'backer' not found
+(contributing/index: line   50) broken    https://opencollective.com/opsdroid#sponsor - Anchor 'sponsor' not found
+(       packaging: line   44) broken    https://setuptools.readthedocs.io/en/latest/setuptools.html#dynamic-discovery-of-services-and-plugins - Anchor 'dynamic-discovery-of-services-and-plugins' not found
+(skills/matchers/wit.ai: line   18) broken    https://wit.ai/docs/recipes#categorize-the-user-intent - Anchor 'categorize-the-user-intent' not found
+
+
