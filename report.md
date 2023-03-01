@@ -22,27 +22,28 @@ For each team member, how much time was spent in
 > This assignment, more than previous assignments, we have all sat together and worked as a group than individually. Therefore the time is mostly the same for everyone in the group.
 
 1. plenary discussions/meetings;
-We have each spent around 4 hours each in meetings of just planning, writing to each other in slack and getting our schedule to work with all the group members. Most of this time has been discussing if the issues we found where suitable for the project.
+>We have each spent around 4 hours each in meetings of just planning, writing to each other in slack and getting our schedule to work with all the group members. Most of this time has been discussing if the issues we found where suitable for the project.
 
 2. discussions within parts of the group;
-Some smaller things has been done in smaller groups, ~2 hours each, but most of the things has been done together.
+>Some smaller things has been done in smaller groups, ~2 hours each, but most of the things has been done together.
 
 3. reading documentation;
-Each person has spent around 3 hours searching individually for issues before the first 2 meetings, and with that came a lot of documentation reading. 
+>Each person has spent around 3 hours searching individually for issues before the first 2 meetings, and with that came a lot of documentation reading. 
 
 4. configuration and setup;
-For the people with linux computer, this took around 1 hour since the code wasn't documented correctly. For the people with other operating systems, this was around 2 hours until some got it to work and others gave up and only pair programmed instead.
+>For the people with linux computer, this took around 1 hour since the code wasn't documented correctly. For the people with other operating systems, this was around 2 hours until some got it to work and others gave up and only pair programmed instead.
 
 5. analyzing code/output;
-
+>
 
 6. writing documentation;
-
+>
 
 7. writing code;
-
+>
 
 8. running code?
+>
 
 ## Overview of issue(s) and work done.
 
@@ -50,7 +51,7 @@ Title: Add get_skill method to opsdroid #1803
 
 URL: https://github.com/opsdroid/opsdroid/issues/1803
 
-
+Summary: Skills are python modules that are used to add functionality to the chatbot. The issue requests a method to return a skill given its method name, method name + class, method name + class + config file, or full path to the skill.
 
 Scope (functionality and code affected).
 
