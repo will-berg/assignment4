@@ -49,7 +49,7 @@ Title: Add get_skill method to opsdroid #1803
 
 URL: https://github.com/opsdroid/opsdroid/issues/1803
 
-Summary in one or two sentences
+
 
 Scope (functionality and code affected).
 
@@ -72,4 +72,5 @@ What are your main take-aways from this project? What did you learn?
 > It takes a long time to learn a project, and it took way longer to find a suitable issue than we thought it was going to take. We are thankful for the people who spends their spare time working on open source projects!
 
 How did you grow as a team, using the Essence standard to evaluate yourself?
-> 
+> Link to essence document: https://docs.google.com/document/d/1hTcTf2wXyHpmJLGaf7FLB6UrkHsdOUrMGbju76j2pfE/edit?usp=sharing
+> We find ourself almost in the "performing" category, the only thing missing is one thing from the "Formed" category, "All team members understand how to perform their work.". This is mostly because all of us in the team were confused over this assignment. Both from that we weren't sure what the TA's would think of our work, and that open source project takes a long time to get used to (and many aren't writing issues in a good manner).
