@@ -49,7 +49,7 @@ Title: Add get_skill method to opsdroid #1803
 
 URL: https://github.com/opsdroid/opsdroid/issues/1803
 
-
+Summary: Skills are python modules that are used to add functionality to the chatbot. The issue requests a method to return a skill given its method name, method name + class, method name + class + config file, or full path to the skill.
 
 Scope (functionality and code affected).
 
