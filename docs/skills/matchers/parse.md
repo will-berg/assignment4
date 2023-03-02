@@ -117,7 +117,7 @@ class MySkill(Skill):
             await message.respond(message.entities['text']['value'])
 ```
 
-Read [parse format specification](https://github.com/r1chardj0n3s/parse#format-specification) to see all the possibilities.
+Read parse format specification to see all the possibilities.
 
 ## Score factor
 

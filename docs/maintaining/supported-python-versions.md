@@ -17,4 +17,4 @@ In addition to this we will also endeavour to support new minor versions of Pyth
 | 3.8.0   | October 2019   | April 2020    | April 2023    | Supported           |
 | 3.9.0   | October 2020   | January 2021  | April 2024    | Supported           |
 
-_If you think this table may be out of date please help by raising a [Pull Request](https://github.com/opsdroid/opsdroid/edit/master/docs/project/supported-python-versions.md) to fix it._
+_If you think this table may be out of date please help by raising a Pull Request to fix it._

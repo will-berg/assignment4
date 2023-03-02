@@ -8,7 +8,7 @@ The matrix connector for opsdroid supports connecting to any matrix server and s
 To use this connector you will need to have:
 
   * A Matrix account for the bot with a username (mxid) and password.
-  * Know what your [homeserver](https://matrix.org/faq/#what-is-a-homeserver%3F) (matrix server URL) is.
+  * Know what your homeserver (matrix server URL) is.
   * Know the room alias (address) for the room (or rooms) you want the bot to join.
 
 

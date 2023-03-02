@@ -46,7 +46,7 @@ To get your code, you need to make a request to `https://id.twitch.tv/oauth2/aut
 - response_type
 - scope
 
-Both the `client_id` and `redirect_uri` can be obtained when you click the `Manage` button on your app. The `response_type` that we want will be `code` and we will ask for a lot of scopes. You can check the [API Scopes](https://dev.twitch.tv/docs/v5/guides/migration#scopes) and the [IRC Scopes](https://dev.twitch.tv/docs/irc/guide#scopes-for-irc-commands) to read more about what we are asking and why.
+Both the `client_id` and `redirect_uri` can be obtained when you click the `Manage` button on your app. The `response_type` that we want will be `code` and we will ask for a lot of scopes. You can check the API Scopes and the IRC Scopes to read more about what we are asking and why.
 
 The Twitch Connector interacts with a wide range of services - IRC server, New API, V5 API - so we need to pass a big number of scopes to make sure everything works as expected.
 

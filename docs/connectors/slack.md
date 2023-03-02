@@ -313,7 +313,7 @@ class InteractionsSkill(Skill):
 
 ## Matching events in Interactive Actions
 
-In the [block_actions](./slack.md#user-content-block_actions) example above, you can also match on `action_id` and/or `block_id` in addition to `value` for `match_event` like any of these:
+In the block_actions example above, you can also match on `action_id` and/or `block_id` in addition to `value` for `match_event` like any of these:
 
 ```python
     @match_event(BlockActions, action_id="text1234")

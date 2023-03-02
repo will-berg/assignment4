@@ -53,7 +53,7 @@ This will result in a number of automated actions:
 - The new [release tag](https://github.com/opsdroid/opsdroid/tags) will be created on GitHub.
 - [Github CI](https://github.com/opsdroid/opsdroid/actions/) will build the [pypi distribution](https://pypi.python.org/pypi/opsdroid) and upload it.
 - [Docker Hub](https://hub.docker.com/r/opsdroid/opsdroid/) and [Github container registry](https://github.com/opsdroid/opsdroid/pkgs/container/opsdroid) will build a new container image, create the [new release tag](https://hub.docker.com/r/opsdroid/opsdroid/tags/) and also update `latest` to point to this release.
-- The @opsdroid [twitter account](https://twitter.com/opsdroid) will tweet that the release has been generated (via [IFTTT](https://ifttt.com)).
+- The @opsdroid [twitter account](https://twitter.com/opsdroid) will tweet that the release has been generated (via IFTTT).
 
 There are also the following manual actions which need to be performed:
 

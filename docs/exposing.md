@@ -308,11 +308,11 @@ Inlets also [has support for Kubernetes](https://github.com/inlets/inlets-operat
 
 To install inlets you must install both the client and server applications.
 
-On your local machine install the client following the [official instructions](https://github.com/inlets/inlets#get-inlets).
+On your local machine install the client following the official instructions.
 
-To install the server you must first create an exit-node server with a public IP address. Inlets [has many scripts](https://github.com/inlets/inlets/tree/master/hack) for creating one automatically for you from a variety of cloud vendors. Alternatively you can install it yourself on a VM and set it to run as a service with [this script](https://github.com/inlets/inlets/blob/master/hack/userdata.sh).
+To install the server you must first create an exit-node server with a public IP address. Inlets has many scripts for creating one automatically for you from a variety of cloud vendors. Alternatively you can install it yourself on a VM and set it to run as a service with this script.
 
-For the sake of this guide we are going to create an inlet on Digital Ocean, which will cost $5/month, using the official script. First we must [install doctl](https://github.com/digitalocean/doctl) and [authenticate](https://github.com/digitalocean/doctl#authenticating-with-digitalocean).
+For the sake of this guide we are going to create an inlet on Digital Ocean, which will cost $5/month, using the official script. First we must [install doctl](https://github.com/digitalocean/doctl) and authenticate.
 
 Then we can download and run the DO script.
 

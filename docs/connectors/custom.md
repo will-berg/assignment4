@@ -93,5 +93,5 @@ class MyConnector(Connector):
 ```
 
 ---
-You might also be interested in reading the [configuration reference - Connector Modules](../configuration.md#connector-modules) in the documentation.
+You might also be interested in reading the configuration reference - Connector Modules in the documentation.
 *If you need help or if you are unsure about something join our* [matrix channel](https://app.element.io/#/room/#opsdroid-general:matrix.org) *and ask away! We are more than happy to help you.*

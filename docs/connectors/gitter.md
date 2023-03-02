@@ -1,6 +1,6 @@
 # Gitter
 
-A connector for [Gitter](https://developer.gitter.im/docs/welcome).
+A connector for Gitter.
 
 **Note:** Gitter is sensitive to accounts that post duplicate messages, and
 bots are liable to trip gitter's spam detection by posting multiple messages
@@ -24,8 +24,8 @@ To use the Gitter connector you will need a user for the bot to use and generate
 ### Creating your application
 
 - Create Gitter user for the bot to use and log into it
-- Create a [token](https://developer.gitter.im/apps)
-- Get the [room-id](https://developer.gitter.im/docs/rooms-resource) of room you want to listen.
+- Create a token
+- Get the room-id of room you want to listen.
 
 ## Configuration
 

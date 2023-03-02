@@ -42,7 +42,7 @@ Opsdroid will dynamically discover installed extension packages and use them if 
 configuration file. There is **no additional lookup configuration required**: the extension name is enough.
 
 To be dynamically discoverable, Opsdroid extensions developed and deployed as regular Python packages must define so-called
-[entry points](https://setuptools.readthedocs.io/en/latest/setuptools.html#dynamic-discovery-of-services-and-plugins),
+entry points,
 one for each opsdroid extension.
 
 The entry points are grouped by extension type (skill, connector or database). The groups are called `opsdroid_skills`,

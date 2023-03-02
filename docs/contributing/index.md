@@ -40,14 +40,14 @@ Thank you to all the people who have already contributed to opsdroid!
 
 ### Backers
 
-Thank you to all our backers! [[Become a backer](https://opencollective.com/opsdroid#backer)]
+Thank you to all our backers!
 
 <a href="https://opencollective.com/opsdroid#backers" target="_blank"><img src="https://opencollective.com/opsdroid/backers.svg?width=890"></a>
 
 
 ### Sponsors
 
-Thank you to all our sponsors! (please ask your company to also support this open source project by [becoming a sponsor](https://opencollective.com/opsdroid#sponsor))
+Thank you to all our sponsors! (please ask your company to also support this open source project by becoming a sponsor)
 
 <a href="https://opencollective.com/opsdroid/sponsor/0/website" target="_blank"><img src="https://opencollective.com/opsdroid/sponsor/0/avatar.svg"></a>
 <a href="https://opencollective.com/opsdroid/sponsor/1/website" target="_blank"><img src="https://opencollective.com/opsdroid/sponsor/1/avatar.svg"></a>
