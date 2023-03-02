@@ -16,6 +16,10 @@ Did you choose a new project or continue on the previous one?
 If you changed the project, how did your experience differ from before?
 > This project was a lot harder to start with since it didn't install properly. Some hidden requirements files and a lot of reading documentations later we managed to get it to work on most of our computers. Since the project also was bigger than our previous one, the code was more complex and therefore harder to understand. There was no one command that installed all dependencies, instead we needed to specify multiple modules (there was a module called "all" but this did confusingly not actually include everything).
 
+## Requirements
+
+The requirements for this project were structured as Github issues inside this fork.
+
 ## Effort spent
 
 For each team member, how much time was spent in
