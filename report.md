@@ -74,7 +74,7 @@ Scope: Changed 13 document files which had broken links.
 
 ### Why this is non-trivial
 
-The function get_skill is a new function that has not been implemendet in opsdroid before. This means that currently it is not called from other modules. However, this is an enhancement that should be utilized in multiple modules in the future once it is put into production. The current modules it does effect are: Connectors, skills and opsdroid core. 
+The function get_skill is a new function that has not been implemendet in opsdroid before. This means that currently it is not called from other modules. However, this is an enhancement that should be utilized in multiple modules in the future once it is put into production. The current modules it does effect are: Connectors, skills and opsdroid core.
 
 We have also finished another issue due to us being done with the first issue before we hit 20 hours per person. To solve this issue we had to change 13 files.
 
@@ -86,6 +86,7 @@ We have also finished another issue due to us being done with the first issue be
 ## Test results
 
 > All the implemented tests passed for #1803, there were no tests to add to #1696.
+> The test suite output before our implementation can be found in `tests/test_out_before.txt` and the output after can be found in `tests/test_out_after.txt`
 
 ## UML class diagram and its description
 > Link to the UML diagram can be found [here](https://user-images.githubusercontent.com/47883315/222398651-e64e059b-6f5d-4f67-ad5c-6b37668a6548.png)

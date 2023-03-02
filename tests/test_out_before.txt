@@ -1,0 +1,83 @@
+============================= test session starts ==============================
+platform linux -- Python 3.10.9, pytest-7.2.1, pluggy-1.0.0 -- /usr/bin/python
+cachedir: .pytest_cache
+rootdir: /home/william/Documents/School/sofef/assignment4, configfile: setup.cfg
+plugins: anyio-3.6.2, cov-4.0.0
+collecting ... collected 38 items
+
+test_core.py::TestCore::test_connector_names PASSED                      [  2%]
+test_core.py::TestCore::test_core PASSED                                 [  5%]
+test_core.py::TestCore::test_critical PASSED                             [  7%]
+test_core.py::TestCore::test_default_connector PASSED                    [ 10%]
+test_core.py::TestCore::test_default_target PASSED                       [ 13%]
+test_core.py::TestCore::test_exit PASSED                                 [ 15%]
+test_core.py::TestCore::test_is_running PASSED                           [ 18%]
+test_core.py::TestCore::test_load PASSED                                 [ 21%]
+test_core.py::TestCore::test_load_modules PASSED                         [ 23%]
+test_core.py::TestCore::test_multiple_opsdroids PASSED                   [ 26%]
+test_core.py::TestCore::test_run PASSED                                  [ 28%]
+test_core.py::TestCore::test_run_already_running PASSED                  [ 31%]
+test_core.py::TestCore::test_run_cancelled PASSED                        [ 34%]
+test_core.py::TestCore::test_setup_modules PASSED                        [ 36%]
+test_core.py::TestCoreAsync::test_get_connector_database PASSED          [ 39%]
+test_core.py::TestCoreAsync::test_get_skill_instance PASSED              [ 42%]
+test_core.py::TestCoreAsync::test_handle_stop_signal PASSED              [ 44%]
+test_core.py::TestCoreAsync::test_no_skills PASSED                       [ 47%]
+test_core.py::TestCoreAsync::test_parse_dialogflow PASSED                [ 50%]
+test_core.py::TestCoreAsync::test_parse_luisai PASSED                    [ 52%]
+test_core.py::TestCoreAsync::test_parse_rasanlu PASSED                   [ 55%]
+test_core.py::TestCoreAsync::test_parse_regex PASSED                     [ 57%]
+test_core.py::TestCoreAsync::test_parse_regex_insensitive PASSED         [ 60%]
+test_core.py::TestCoreAsync::test_parse_regex_method_skill PASSED        [ 63%]
+test_core.py::TestCoreAsync::test_parse_sapcai PASSED                    [ 65%]
+test_core.py::TestCoreAsync::test_parse_watson PASSED                    [ 68%]
+test_core.py::TestCoreAsync::test_parse_witai PASSED                     [ 71%]
+test_core.py::TestCoreAsync::test_reload PASSED                          [ 73%]
+test_core.py::TestCoreAsync::test_send_default_explicit PASSED           [ 76%]
+test_core.py::TestCoreAsync::test_send_default_one PASSED                [ 78%]
+test_core.py::TestCoreAsync::test_send_name PASSED                       [ 81%]
+test_core.py::TestCoreAsync::test_start_connectors PASSED                [ 84%]
+test_core.py::TestCoreAsync::test_start_connectors_not_implemented PASSED [ 86%]
+test_core.py::TestCoreAsync::test_start_databases PASSED                 [ 89%]
+test_core.py::TestCoreAsync::test_train_rasanlu PASSED                   [ 92%]
+test_core.py::TestCoreAsync::test_unload_and_stop PASSED                 [ 94%]
+test_core.py::TestCoreAsync::test_watchdog XFAIL (Test seems to fail...) [ 97%]
+test_core.py::TestCoreAsync::test_watchdog_works PASSED                  [100%]
+
+=============================== warnings summary ===============================
+../../../../../../../usr/lib/python3.10/site-packages/_pytest/config/__init__.py:1294
+  /usr/lib/python3.10/site-packages/_pytest/config/__init__.py:1294: PytestConfigWarning: Unknown config option: asyncio_mode
+  
+    self._warn_or_fail_if_strict(f"Unknown config option: {key}\n")
+
+../../../../../../../usr/lib/python3.10/site-packages/_pytest/config/__init__.py:1294
+  /usr/lib/python3.10/site-packages/_pytest/config/__init__.py:1294: PytestConfigWarning: Unknown config option: mock_use_standalone_module
+  
+    self._warn_or_fail_if_strict(f"Unknown config option: {key}\n")
+
+../../../../../.local/lib/python3.10/site-packages/jupyter_client/connect.py:27
+  /home/william/.local/lib/python3.10/site-packages/jupyter_client/connect.py:27: DeprecationWarning: Jupyter is migrating its paths to use standard platformdirs
+  given by the platformdirs library.  To remove this warning and
+  see the appropriate new directories, set the environment variable
+  `JUPYTER_PLATFORM_DIRS=1` and then run `jupyter --paths`.
+  The use of platformdirs will be the default in `jupyter_core` v6
+    from jupyter_core.paths import jupyter_data_dir
+
+tests/test_core.py::TestCore::test_connector_names
+  /home/william/Documents/School/sofef/assignment4/tests/test_core.py:34: DeprecationWarning: There is no current event loop
+    self.previous_loop = asyncio.get_event_loop()
+
+tests/test_core.py::TestCoreAsync::test_get_skill_instance
+  /home/william/Documents/School/sofef/assignment4/tests/test_core.py:670: RuntimeWarning: coroutine 'OpsDroid.load' was never awaited
+    async def method_skill(self, message):
+  Enable tracemalloc to get traceback where the object was allocated.
+  See https://docs.pytest.org/en/stable/how-to/capture-warnings.html#resource-warnings for more info.
+
+tests/test_core.py::TestCoreAsync::test_get_skill_instance
+  /home/william/Documents/School/sofef/assignment4/tests/test_core.py:670: RuntimeWarning: coroutine 'OpsDroid.start' was never awaited
+    async def method_skill(self, message):
+  Enable tracemalloc to get traceback where the object was allocated.
+  See https://docs.pytest.org/en/stable/how-to/capture-warnings.html#resource-warnings for more info.
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+================== 37 passed, 1 xfailed, 6 warnings in 1.44s ===================
