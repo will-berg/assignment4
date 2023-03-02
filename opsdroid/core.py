@@ -585,12 +585,12 @@ class OpsDroid:
        pass
 
     def get_skil_by_name_and_class():
-       pass 
-    
-    def get_skill_with_full_path():
-       pass    
+       pass
 
-    def get_skill(self, name):   
+    def get_skill_with_full_path():
+       pass
+
+    def get_skill(self, name):
         """Get a pointer to a skill method.
 
         Get a specific skill method by name or path from the methods available
@@ -624,9 +624,9 @@ class OpsDroid:
                     method_name = skill.__name__
                     if f"{class_name}.{method_name}" == f"{path[1]}.{path[2]}":
                         path_file_name = self.config["skills"][path[0]]["path"].split("/")[-1]
-                        file_name = inspect.getfile(self.get_skill_instance(skill).__class__)
-                        if path_file_name == file_name: 
-                            return skill 
+                        file_name = inspect.getfile(self.get_skill_instance(skill).__class__).split("/")[-1]
+                        if path_file_name == file_name:
+                            return skill
                 return None
             else:
                 raise ValueError("Invalid skill path")
