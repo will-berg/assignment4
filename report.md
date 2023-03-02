@@ -89,7 +89,8 @@ We have also finished another issue due to us being done with the first issue be
 > The test suite output before our implementation can be found in `tests/test_out_before.txt` and the output after can be found in `tests/test_out_after.txt`
 
 ## UML class diagram and its description
-> Link to the UML diagram can be found [here](https://user-images.githubusercontent.com/47883315/222398651-e64e059b-6f5d-4f67-ad5c-6b37668a6548.png)
+> Link to the UML diagram can be found [here](https://user-images.githubusercontent.com/47883315/222478069-556e1cd5-b8b8-4c79-bba5-33ccc7868830.png)
+
 
 
 ## Overall experience
