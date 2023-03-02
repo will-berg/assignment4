@@ -19,31 +19,34 @@ If you changed the project, how did your experience differ from before?
 ## Effort spent
 
 For each team member, how much time was spent in
-> This assignment, more than previous assignments, we have all sat together and worked as a group than individually. Therefore the time is mostly the same for everyone in the group.
+> This assignment, more than previous assignments, we have all sat together and worked as a group than individually. Therefore the time is mostly the same for everyone in the group and we have choosen to write the same for everyone.
 
 1. plenary discussions/meetings;
->We have each spent around 4 hours each in meetings of just planning, writing to each other in slack and getting our schedule to work with all the group members. Most of this time has been discussing if the issues we found where suitable for the project.
+> We have each spent around 4 hours each in meetings of just planning, writing to each other in slack and getting our schedule to work with all the group members. Most of this time has been discussing if the issues we found where suitable for the project.
 
 2. discussions within parts of the group;
->Some smaller things has been done in smaller groups, ~2 hours each, but most of the things has been done together.
+> Some smaller things has been done in smaller groups, ~2 hours each, but most of the things has been done together in the full group.
 
 3. reading documentation;
->Each person has spent around 3 hours searching individually for issues before the first 2 meetings, and with that came a lot of documentation reading. 
+> Each person has spent around 4 hours searching individually for issues before the first 2 meetings in order to choose a repo and issue, and with that came a lot of documentation reading. We have also spent around 2 hours together in smaller groups reading more documentation.
 
 4. configuration and setup;
->For the people with linux computer, this took around 1 hour since the code wasn't documented correctly. For the people with other operating systems, this was around 2 hours until some got it to work and others gave up and only pair programmed instead.
+> For the people with linux computer, this took around 1 hour since the code wasn't documented correctly. For the people with other operating systems, this was around 2 hours until some got it to work and others gave up and only pair programmed instead. This was one of the few things we wanted to do individually, but it would have been much better if we all sat together since we met the same problems.
 
 5. analyzing code/output;
->
+> Approximately 1-3 hours per person.
 
 6. writing documentation;
->
+> Approzimately 1 hour per person.
 
 7. writing code;
->
+> Approximately 4-5 hours per person. Some persons spent more time writing code while others spent more time writing the report.
 
 8. running code?
->
+> Approximately 1 hour per person.
+
+9. Writing report;
+> Approximately 1 hour per person in a meeting where we discussed this, then the persons that didn't write so much code spent more time writing the report.
 
 ## Overview of issue(s) and work done.
 
