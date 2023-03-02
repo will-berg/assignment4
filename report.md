@@ -64,9 +64,15 @@ URL: https://github.com/opsdroid/opsdroid/issues/1696
 
 Summary: We scanned for broken links with sphinx and fixed them.
 
-Scope: Changed around 12 document files which had broken links.
+Scope: Changed 13 document files which had broken links.
 
 ## Code changes
+
+### Why this is non-trivial
+
+The function get_skill is a new function that has not been implemendet in opsdroid before. This means that currently it is not called from other modules. However, this is an enhancement that should be utilized in multiple modules in the future once it is put into production. The current modules it does effect are: Connectors, skills and opsdroid core. 
+
+We have also finished another issue due to us being done with the first issue before we hit 20 hours per person. To solve this issue we had to change 13 files.
 
 ### Patch
 
