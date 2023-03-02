@@ -64,7 +64,7 @@ URL: https://github.com/opsdroid/opsdroid/issues/1696
 
 Summary: We scanned for broken links with sphinx and fixed them.
 
-Scope: 
+Scope: Changed around 12 document files which had broken links.
 
 ## Code changes
 
