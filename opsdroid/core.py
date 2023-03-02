@@ -596,12 +596,17 @@ class OpsDroid:
                 return skill
         return None
 
-    def get_skill_with_full_path(self, name, path):
+    def get_skill_with_full_path(self, path):
         for skill in self.skills:
             class_name = self.get_skill_instance(skill).__class__.__name__
             method_name = skill.__name__
-            if f"{class_name}.{method_name}" == f"{path[1]}.{path[2]}":
+            if len(path) == 3 and f"{class_name}.{method_name}" == f"{path[1]}.{path[2]}":
                 path_file_name = self.config["skills"][path[0]]["path"].split("/")[-1]
+                file_name = inspect.getfile(self.get_skill_instance(skill).__class__).split("/")[-1]
+                if path_file_name == file_name:
+                    return skill
+            if len(path) == 5 and f"{class_name}.{method_name}" == f"{path[3]}.{path[4]}" and f"{path[0]}.{path[1]}" == "opsdroid_modules.skill":
+                path_file_name = self.config["skills"][path[2]]["path"].split("/")[-1]
                 file_name = inspect.getfile(self.get_skill_instance(skill).__class__).split("/")[-1]
                 if path_file_name == file_name:
                     return skill
@@ -619,15 +624,14 @@ class OpsDroid:
             skill method: A pointer to a skill method.
 
         """
-        # TODO this function should probably be refactored when completed
         path = name.split(".")
         try:
             if len(path) == 1:
-                return get_skill_by_name(name)
+                return self.get_skill_by_name(name)
             if len(path) == 2:
-                return get_skill_by_name_and_class(name)
+                return self.get_skill_by_name_and_class(name)
             if len(path) == 3 or len(path) == 5:
-                return get_skill_with_full_path(name, path)
+                return self.get_skill_with_full_path(path)
             else:
                 raise ValueError("Invalid skill path")
         except ValueError:

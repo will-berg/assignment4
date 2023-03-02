@@ -690,7 +690,7 @@ class TestCoreAsync(asynctest.TestCase):
             async def method_skill(self, message):
                 pass
 
-        skill_path = "opsdroid/testing/mockmodules/skills/skill/skilltest"
+        skill_path = "tests/test_core.py"
         example_config = {
             "connectors": {"websocket": {}},
             "skills": {"test": {"path": skill_path}},
@@ -699,7 +699,11 @@ class TestCoreAsync(asynctest.TestCase):
             inst = ClassSkill(opsdroid, {})
             opsdroid.register_skill(inst.method_skill)
 
-            opsdroid.get_skill("test.ClassSkill.method_skill")
+            assert opsdroid.get_skill("method2_skill") is None
+            assert opsdroid.get_skill("method_skill") is not None
+            assert opsdroid.get_skill("ClassSkill.method_skill") is not None
+            assert opsdroid.get_skill("test.ClassSkill.method_skill") is not None
+            assert opsdroid.get_skill("opsdroid_modules.skill.test.ClassSkill.method_skill") is not None
 
 if __name__ == "__main__":
     unittest.main()
