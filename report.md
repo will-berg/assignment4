@@ -58,15 +58,28 @@ Summary: Skills are python modules that are used to add functionality to the cha
 
 Scope: Two files were directly affected by our patch: `opsdroid/core.py` and `tests/test_core.py`. In the `core.py` file we added the requested method and some additional helper methods. We then added a test for our method in the `test_core.py` file that makes some simple assertions. Since the `get_skill` method is completely new it is not yet called somewhere else, so the scope did not expand beyond this.
 
+Title for second issue: Replace our use of deadlinks with sphinx linkcheck
+
+URL: https://github.com/opsdroid/opsdroid/issues/1696
+
+Summary: We scanned for broken links with sphinx and fixed them.
+
+Scope: 
+
 ## Code changes
 
 ### Patch
 
-> The patch is implemented on the [issue1803 branch](https://github.com/will-berg/assignment4/tree/1/report).
+> The patch for #1803 is implemented on the [issue1803 branch](https://github.com/will-berg/assignment4/tree/1/report).
+> The patch for #1696 is implemented on the [broken-links branch](https://github.com/will-berg/assignment4/tree/broken-links).
 
 ## Test results
 
-> All the implemented tests passed.
+> All the implemented tests passed for #1803, there were no tests to add to #1696.
+
+## UML class diagram and its description
+> Link to the UML diagram can be found [here](https://user-images.githubusercontent.com/47883315/222398651-e64e059b-6f5d-4f67-ad5c-6b37668a6548.png)
+
 
 ## Overall experience
 
@@ -74,5 +87,5 @@ What are your main take-aways from this project? What did you learn?
 > It takes a long time to learn a project, and it took way longer to find a suitable issue than we thought it was going to take. We are thankful for the people who spends their spare time working on open source projects!
 
 How did you grow as a team, using the Essence standard to evaluate yourself?
-> Link to essence document: https://docs.google.com/document/d/1hTcTf2wXyHpmJLGaf7FLB6UrkHsdOUrMGbju76j2pfE/edit?usp=sharing
+> Link to [essence document](https://docs.google.com/document/d/1hTcTf2wXyHpmJLGaf7FLB6UrkHsdOUrMGbju76j2pfE/edit?usp=sharing)
 > We find ourself almost in the "performing" category, the only thing missing is one thing from the "Formed" category, "All team members understand how to perform their work.". This is mostly because all of us in the team were confused over this assignment. Both from that we weren't sure what the TA's would think of our work, and that open source project takes a long time to get used to (and many aren't writing issues in a good manner).
