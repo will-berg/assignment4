@@ -14,7 +14,7 @@ Did you choose a new project or continue on the previous one?
 > We started a new one since our last project was too small for this assignment.
 
 If you changed the project, how did your experience differ from before?
-> This project was a lot harder to start with since it didn't install properly. Some hidden requirements files and a lot of reading documentations later we managed to get it to work on most of our computers. Since the project also was bigger than our previous one, the code was more complex and therefore harder to understand.
+> This project was a lot harder to start with since it didn't install properly. Some hidden requirements files and a lot of reading documentations later we managed to get it to work on most of our computers. Since the project also was bigger than our previous one, the code was more complex and therefore harder to understand. There was no one command that installed all dependencies, instead we needed to specify multiple modules (there was a module called "all" but this did confusingly not actually include everything).
 
 ## Effort spent
 
@@ -56,20 +56,17 @@ URL: https://github.com/opsdroid/opsdroid/issues/1803
 
 Summary: Skills are python modules that are used to add functionality to the chatbot. The issue requests a method to return a skill given its method name, method name + class, method name + class + config file, or full path to the skill.
 
-Scope (functionality and code affected).
+Scope: Two files were directly affected by our patch: `opsdroid/core.py` and `tests/test_core.py`. In the `core.py` file we added the requested method and some additional helper methods. We then added a test for our method in the `test_core.py` file that makes some simple assertions. Since the `get_skill` method is completely new it is not yet called somewhere else, so the scope did not expand beyond this.
 
 ## Code changes
 
 ### Patch
 
-(copy your changes or the add git command to show them)
-
-git diff ...
+> The patch is implemented on the [issue1803 branch](https://github.com/will-berg/assignment4/tree/1/report).
 
 ## Test results
 
-Overall results with link to a copy or excerpt of the logs (before/after
-refactoring).
+> All the implemented tests passed.
 
 ## Overall experience
 
