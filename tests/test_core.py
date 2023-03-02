@@ -683,7 +683,6 @@ class TestCoreAsync(asynctest.TestCase):
             opsdroid.register_skill(inst.method_skill)
             assert opsdroid.get_skill_instance(opsdroid.skills[0]) is inst
 
-    # TODO finish this test, currently used for experimenting with get_skill
     async def test_get_skill(self):
         class ClassSkill(Skill):
             @match_regex(r"hello")
@@ -700,6 +699,7 @@ class TestCoreAsync(asynctest.TestCase):
             opsdroid.register_skill(inst.method_skill)
 
             assert opsdroid.get_skill("method2_skill") is None
+            self.assertRaises(ValueError, opsdroid.get_skill, "method2_skill.test.test.test")
             assert opsdroid.get_skill("method_skill") is not None
             assert opsdroid.get_skill("ClassSkill.method_skill") is not None
             assert opsdroid.get_skill("test.ClassSkill.method_skill") is not None

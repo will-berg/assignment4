@@ -592,23 +592,22 @@ class OpsDroid:
             skill method: A pointer to a skill method.
 
         """
+        # Extracts path components and redirects to correct get_skill method
         path = name.split(".")
-        try:
-            if len(path) == 1:
-                return self.__get_skill_by_name(name)
-            elif len(path) == 2:
-                return self.__get_skill_by_name_and_class(name)
-            elif len(path) == 3 or len(path) == 5:
-                return self.__get_skill_with_full_path_3(path)
-            elif len(path) == 5:
-                return self.__get_skill_with_full_path_5(path)
-            else:
-                raise ValueError("Invalid skill path")
-        except ValueError:
-            return None
+        if len(path) == 1:
+            return self.__get_skill_by_name(name)
+        elif len(path) == 2:
+            return self.__get_skill_by_name_and_class(name)
+        elif len(path) == 3:
+            return self.__get_skill_with_full_path_3(path)
+        elif len(path) == 5:
+            return self.__get_skill_with_full_path_5(path)
+        else:
+            raise ValueError("Invalid skill path")
 
     # Helper methods for get_skill
 
+    # Gets the first skill that matches the method name
     def __get_skill_by_name(self, name):
         for skill in self.skills:
             method_name = skill.__name__
@@ -616,6 +615,7 @@ class OpsDroid:
                 return skill
         return None
 
+    # Gets the first skill that matches the method name and class
     def __get_skill_by_name_and_class(self, name):
         for skill in self.skills:
             class_name = self.get_skill_instance(skill).__class__.__name__
@@ -624,6 +624,8 @@ class OpsDroid:
                 return skill
         return None
 
+    # Gets the exact skill that matches the method name and class. Also checks that
+    # the method is in the file specified by the config
     def __get_skill_with_full_path_3(self, path):
         for skill in self.skills:
             class_name = self.get_skill_instance(skill).__class__.__name__
@@ -635,6 +637,7 @@ class OpsDroid:
                     return skill
         return None
 
+    # Same as __get_skill_with_full_path_3 but handles arguments where opsdroid_modules.skill is specified
     def __get_skill_with_full_path_5(self, path):
         for skill in self.skills:
             class_name = self.get_skill_instance(skill).__class__.__name__
