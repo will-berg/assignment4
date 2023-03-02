@@ -581,14 +581,31 @@ class OpsDroid:
             return None
 
 
-    def get_skil_by_name():
-       pass
+    def get_skill_by_name(self, name):
+        for skill in self.skills:
+            method_name = skill.__name__
+            if method_name == name:
+                return skill
+        return None
 
-    def get_skil_by_name_and_class():
-       pass
+    def get_skill_by_name_and_class(self, name):
+        for skill in self.skills:
+            class_name = self.get_skill_instance(skill).__class__.__name__
+            method_name = skill.__name__
+            if f"{class_name}.{method_name}" == name:
+                return skill
+        return None
 
-    def get_skill_with_full_path():
-       pass
+    def get_skill_with_full_path(self, name, path):
+        for skill in self.skills:
+            class_name = self.get_skill_instance(skill).__class__.__name__
+            method_name = skill.__name__
+            if f"{class_name}.{method_name}" == f"{path[1]}.{path[2]}":
+                path_file_name = self.config["skills"][path[0]]["path"].split("/")[-1]
+                file_name = inspect.getfile(self.get_skill_instance(skill).__class__).split("/")[-1]
+                if path_file_name == file_name:
+                    return skill
+        return None
 
     def get_skill(self, name):
         """Get a pointer to a skill method.
@@ -606,28 +623,11 @@ class OpsDroid:
         path = name.split(".")
         try:
             if len(path) == 1:
-                for skill in self.skills:
-                    method_name = skill.__name__
-                    if method_name == name:
-                        return skill
-                return None
+                return get_skill_by_name(name)
             if len(path) == 2:
-                for skill in self.skills:
-                    class_name = self.get_skill_instance(skill).__class__.__name__
-                    method_name = skill.__name__
-                    if f"{class_name}.{method_name}" == name:
-                        return skill
-                return None
+                return get_skill_by_name_and_class(name)
             if len(path) == 3 or len(path) == 5:
-                for skill in self.skills:
-                    class_name = self.get_skill_instance(skill).__class__.__name__
-                    method_name = skill.__name__
-                    if f"{class_name}.{method_name}" == f"{path[1]}.{path[2]}":
-                        path_file_name = self.config["skills"][path[0]]["path"].split("/")[-1]
-                        file_name = inspect.getfile(self.get_skill_instance(skill).__class__).split("/")[-1]
-                        if path_file_name == file_name:
-                            return skill
-                return None
+                return get_skill_with_full_path(name, path)
             else:
                 raise ValueError("Invalid skill path")
         except ValueError:
